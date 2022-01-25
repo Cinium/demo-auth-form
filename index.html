@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Page Title</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			media="screen"
+			href="./src/styles/index.css"
+		/>
+	</head>
+	<body>
+		<main class="main">
+			<section class="authorization">
+				<h2 class="authorization__title">Авторизация</h2>
+				<p class="authorization__subtitle">Войдите в свой аккаунт.</p>
+
+				<form class="authorization__form" autocomplete="off">
+					<label class="authorization__input-label">
+						Email
+						<input
+							name="email"
+							type="email"
+							class="authorization__input"
+							minlength="3"
+							required
+						/>
+					</label>
+
+					<label class="authorization__input-label">
+						Пароль
+						<input
+							name="password"
+							type="password"
+							class="authorization__input"
+							minlength="3"
+							required
+						/>
+					</label>
+
+					<div class="authorization__additional">
+						<label for="remember-me" class="authorization__checkbox-label">
+							<input
+								name="remember-me"
+								id="remember-me"
+								type="checkbox"
+								class="authorization__checkbox"
+							/>
+							Запомнить меня
+						</label>
+						<a href="#" class="link authorization__forgot-pw-link"
+							>Забыли свой пароль?</a
+						>
+					</div>
+
+					<button type="submit" class="authorization__submit">Войти</button>
+				</form>
+			</section>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+.authorization__checkbox-label {
+	font-size: .9rem;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 424px) {
+	.authorization__checkbox-label {
+		margin-bottom: 15px;
+	}
+}

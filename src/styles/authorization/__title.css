@@ -1,0 +1,11 @@
+.authorization__title {
+	margin: 0 0 13px;
+}
+
+@media screen and (max-width: 424px) {
+	.authorization__title {
+		text-align: center;
+		font-size: 1.25em;
+		margin: 0 0 5px;
+	}
+}

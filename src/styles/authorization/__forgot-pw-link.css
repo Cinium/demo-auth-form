@@ -1,0 +1,28 @@
+.authorization__forgot-pw-link {
+	text-decoration: none;
+	color: inherit;
+
+	color: #676edb;
+	font-weight: 500;
+	font-size: 14px;
+
+	transition: border-bottom 0.3s ease 0s, left 0.3s ease 0s;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.authorization__forgot-pw-link:after {
+	content: '';
+	height: 1.5px;
+	bottom: -2px;
+	left: 50%;
+	position: absolute;
+	background: #676edb;
+	transition: width .2s ease 0s, left .2s ease;
+	width: 0;
+}
+
+.authorization__forgot-pw-link:hover::after {
+	width: 100%;
+	left: 0;
+}

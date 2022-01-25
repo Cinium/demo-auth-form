@@ -1,0 +1,27 @@
+@import url('./authorization/authorization.css');
+@import url('./authorization/__form.css');
+@import url('./authorization/__title.css');
+@import url('./authorization/__subtitle.css');
+@import url('./authorization/__input-label.css');
+@import url('./authorization/__input.css');
+@import url('./authorization/__additional.css');
+@import url('./authorization/__forgot-pw-link.css');
+@import url('./authorization/__submit.css');
+@import url('./authorization/__checkbox-label.css');
+@import url('./authorization/__checkbox.css');
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: Arial, sans-serif;
+}
+
+main {
+	height: 100vh;
+}

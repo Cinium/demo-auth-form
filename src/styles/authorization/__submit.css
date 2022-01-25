@@ -1,0 +1,24 @@
+.authorization__submit {
+	background: #7e57c2;
+	border: none;
+	border-radius: 3px;
+	height: 39px;
+
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+
+	transition: all .2s ease;
+	box-shadow: 0 5px 10px -5px #7e57c2b7;
+}
+
+.authorization__submit:hover {
+	background-color: rgba(126, 87, 194, .9);
+	cursor: pointer;
+}
+
+.authorization__submit:disabled {
+	background-color: gray;
+	cursor: default;
+	box-shadow: none;
+}

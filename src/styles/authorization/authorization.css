@@ -1,0 +1,30 @@
+.authorization {
+	margin: 0 auto;
+	padding: 35px 49px 49px;
+	width: 415px;
+	box-sizing: content-box;
+
+	justify-self: center;
+	align-self: center;
+
+	border-radius: 8px;
+	box-shadow: 0 15px 45px -26px;
+
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 590px) {
+	.authorization {
+		width: 90%;
+		box-sizing: border-box;
+	}
+}
+
+@media screen and (max-width: 424px) {
+	.authorization {
+		padding: 40px 30px;
+	}
+}

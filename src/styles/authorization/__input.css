@@ -1,0 +1,16 @@
+.authorization__input {
+	background: transparent;
+	padding: 20px 0 4px;
+	border: none;
+	outline: none;
+	font-size: 1.25rem;
+
+	transition: border-bottom 0.3s ease 0s, left 0.3s ease 0s;
+	position: relative;
+}
+
+@media screen and (max-width: 424px) {
+	.authorization__input {
+		padding: 5px 0;
+	}
+}
